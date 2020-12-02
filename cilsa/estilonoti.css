@@ -1,0 +1,37 @@
+body{
+    background-color:black;
+}
+img{width: 300px;
+    margin-top: -75px;
+}
+
+nav {
+    float: left; 
+  }
+   
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+   
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 125px;
+  }
+   
+  nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+   
+  nav ul li:hover {
+    background: #16A7E7;
+  }
+  article{
+      display: inline-block;
+  }
+  footer{
+      position: relative;
