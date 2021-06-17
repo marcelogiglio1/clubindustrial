@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentro del banco</title>
+    <link rel="stylesheet" href="bank.css">
+  
+</head>
+<body>
+    <div class="container">
+
+            <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+            </div>
+            </div>
+        </header>
+        <div class="capa"></div>
+    <!--	--------------->
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <h1>Marcelo Giglio</h1>
+                <h2>N° Cuenta</h2>
+                <h2>12345678</h2>
+                <a href="index.html">Cerrar Sesion</a>
+                <button id="btn-abrir-popup" class="btn-abrir-popup">Transferencia</button>
+                <div class="overlay" id="overlay">
+                    <div class="popup" id="popup">
+                        <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                        <h3>Transferir</h3>
+                        <h4>Completar los datos.</h4>
+                        <form action="" id="formulario">
+                            <div class="contenedor-inputs">
+                                <div class="formulario__grupo" id="grupo__nombre">
+                                    <label for="nombre" class="formulario__label">Nombre</label>
+                                    <div class="formulario__grupo-input">
+                                        <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre">
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="formulario__grupo" id="grupo__apellido">
+                                    <label for="apellido" class="formulario__label">Apellido</label>
+                                    <div class="formulario__grupo-input">
+                                        <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Apellido">
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="formulario__grupo" id="grupo__documento">
+                                    <label for="documento" class="formulario__label">N° Documento</label>
+                                    <div class="formulario__grupo-input">
+                                        <input type="text" class="formulario__input" name="documento" id="documento" placeholder="N° Documento" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;" >
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                    </div>
+                                    <p class="formulario__input-error">El numero de documento debe de ser un numero de 7 u 8 cifras.</p>
+                                </div>
+                                <div class="formulario__grupo" id="grupo__cuenta">
+                                    <label for="cuenta" class="formulario__label">N° Cuenta</label>
+                                    <div class="formulario__grupo-input">
+                                        <input type="text" class="formulario__input" name="cuenta" id="cuenta" placeholder="N° Cuenta" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;" >
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                    </div>
+                                    <p class="formulario__input-error">El numero de cuenta debe de ser un numero de 8 cifras..</p>
+                                </div>
+                                <div class="formulario__grupo" id="grupo__cbu">
+                                    <label for="cbu" class="formulario__label">CBU</label>
+                                    <div class="formulario__grupo-input">
+                                        <input type="text" class="formulario__input" name="cbu" id="cbu" placeholder="CBU" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;">
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                    </div>
+                                    <p class="formulario__input-error">El CBU tiene que ser de 22 dígitos y solo puede contener numeros.</p>
+                                </div>
+                                <div class="formulario__grupo" id="grupo__monto">
+                                    <label for="monto" class="formulario__label">Monto</label>
+                                    <div class="formulario__grupo-input">
+                                        <input type="text" class="formulario__input" name="monto" id="monto" placeholder="Monto" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;" minlength="1">
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                    </div>
+                                    <p class="formulario__input-error">El monto tiene que ser mayor de 0 hasta 999999.</p>
+                                </div>
+                            </div>
+                            <div class="formulario__mensaje" id="formulario__mensaje">
+                                <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                            </div>
+                
+                            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                                <button type="submit" class="formulario__btn">Transferir</button>
+                                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">La transferencia se realizo exitosamente!</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </nav>
+            <label for="btn-menu">✖️</label>
+        </div></div>
+<center>
+        <div class="section">
+            <button class="btn" id="mov">TODOS LOS MOVIMIENTOS</button>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Titulo</th>
+                        <th>Credito</th>
+                        <th>Debito</th>
+                        
+                    </tr>
+                </thead>
+                <tbody id="tmov">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="credito">
+            <button class="btn" id="mas">MOVIMIENTOS CREDITO</button></div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Titulo</th>
+                        <th>Credito</th>
+                    </tr>
+                </thead>
+                <tbody id="tmas">
+
+                </tbody>
+            </table>
+        </div>
+
+         <div class="debito">
+            <button class="btn" id="menos">MOVIMIENTOS DEBITO</button></div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Titulo</th>
+                        <th>Debito</th>
+                        
+                    </tr>
+                </thead>
+                <tbody id="tmenos">
+
+                </tbody>
+            </table>
+        </div>
+        </center>
+        
+     <script src="bank.js"></script>
+   <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

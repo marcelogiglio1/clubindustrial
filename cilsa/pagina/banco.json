@@ -1,0 +1,388 @@
+[
+    {
+      "movimiento":"01",
+      "tipo": "debito",
+      "fecha": "02/06/2021",
+      "titulo":  "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "1000,00",
+      "credito": "0,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"02",
+      "tipo": "debito",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "2000,00"
+    },
+    {
+      "movimiento":"03",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "2300,00"
+    },
+  
+    {
+      "movimiento":"04",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "3300,00"
+    },
+    {
+      "movimiento":"05",
+      "tipo": "debito",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "3000,00"
+    },
+    {
+      "movimiento":"06",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "3300,00"
+    },
+    {
+      "movimiento":"07",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "4300,00"
+    },
+    {
+      "movimiento":"08",
+      "tipo": "debito",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "4000,00"
+    },
+    {
+      "movimiento":"09",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "4300,00"
+    },
+    {
+      "movimiento":"10",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "5300,00"
+    },
+    {
+      "movimiento":"11",
+      
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {
+      "movimiento":"12",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"13",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"14",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {
+      "movimiento":"15",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"16",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"17",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {
+      "movimiento":"18",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"19",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"20",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {
+      "movimiento":"21",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"22",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"23",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {
+      "movimiento":"24",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"25",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"26",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {
+      "movimiento":"27",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"28",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"29",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {
+      "movimiento":"30",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"31",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"32",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {"movimiento":"33",
+      "tipo": "credito",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"34",
+      "tipo": "credito",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"35",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {"movimiento":"36",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"37",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    },
+    {
+      "movimiento":"38",
+      "fecha": "01/06/2021",
+      "titulo": "Transferencia A Terceros",
+      "descripcion": "Cbu 1500021302337165742752 Cu 22334534143 Rbts 4517xxxxxxxxxx06 Varios",
+      "debito": "300,00",
+      "credito": "0,00",
+      "saldo": "0,00"
+    },
+    {
+      "movimiento":"39",
+      "fecha": "17/05/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0",
+      "credito": "300,00",
+      "saldo": "300,00"
+    },
+    {
+      "movimiento":"40",
+      "fecha": "02/06/2021",
+      "titulo": "Transferencia De Cuenta Propia",
+      "descripcion": "Cuenta Origen Caja Ahorro Pesos Varios 4517xxxxxxxxxx45 4444448769",
+      "debito": "0,00",
+      "credito": "1000,00",
+      "saldo": "1000,00"
+    }
+   
+  ]
