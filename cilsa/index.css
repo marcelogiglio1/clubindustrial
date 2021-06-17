@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+	body{
+		background: green;
+	}
+    .container{
+        height: 800px;
+        background: white;
+    }
+    .ingreso{
+        color: white;
+        background: green;
+        margin: 5% 33%;
+        padding: 3%;
+        border: 1em solid black;
+    }
+    .ingreso h2{
+        margin-left: 30%;
+        padding-bottom: 2%;
+    }
+    .ingreso p{
+     padding: 2%;
+    }
+    .ingreso input{
+        font-size: 1em;
+    }
+    .titulo{
+        margin: 10% 36%;
+        font-size: 2em;
+    }
+    h2{
+        display: inline-block;
+    }
+    h1{background-color: green;
+        padding: 2%;
+        border-radius: 90%;
+       display: inline-block;
+
+    }
